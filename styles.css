@@ -1,0 +1,61 @@
+body{
+  font-family: Roboto,Arial,sans-serif;
+  background-color: #f1f3f6;
+}
+
+.category-img-item{
+  height: 80px;
+  width: 80px;
+}
+
+.category-name:hover{
+  color: #2874f0;
+}
+
+.explore-plus-logo{
+  font-family: Roboto;
+  font-size: 11px;
+  font-style:italic;
+  color:#fff;
+  font-weight:600;
+  text-decoration: none;
+}
+
+.explore-plus-logo:hover{
+  text-decoration:underline;
+  color:#fff;
+}
+
+.flipkart-logo{
+  display: flex;
+  flex-direction: column;
+}
+
+img.deal-img{
+  width: 180px;
+  height:180px;
+}
+
+.plus{
+  color:#ffe500;
+}
+
+/* Media Query */
+@media (max-width:1044px){
+  .category-name{
+    font-size: x-small;
+  }
+}
+
+@media(max-width:1260px){
+  img.adv-img{
+    height:430px;
+  }
+}
+
+@media(max-width:990px){
+  img.adv-img{
+    width: 990px;
+    height: 500px;
+  }
+}
